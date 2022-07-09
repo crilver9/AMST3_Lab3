@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         params.put("username", usuario);
         params.put("password", password);
         JSONObject parametros = new JSONObject(params);
-        String login_url = "https://amstlabx.herokuapp.com/db/nuevo-jwt";
+        String login_url = "https://amst-labx.herokuapp.com/db/nuevo-jwt";
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.POST, login_url, parametros, new Response.Listener<JSONObject>(){
                             @Override
                             public void

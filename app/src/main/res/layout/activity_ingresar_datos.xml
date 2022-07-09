@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="12dp"
-    tools:context=".RedSensores">
+    tools:context=".IngresarDatos">
     <LinearLayout
         android:layout_width="395dp"
         android:layout_height="715dp"
@@ -42,8 +42,8 @@
                 android:text="Temperatura Actual"
                 android:textSize="24sp"
                 />
-            <TextView
-                android:id="@+id/tempVal"
+            <EditText
+                android:id="@+id/in_temp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -67,15 +67,15 @@
                 app:srcCompat="@drawable/humedad" />
             <TextView
                 android:id="@+id/humedadTx"
-            android:layout_width="wrap_content"
-            android:layout_height="63dp"
-            android:layout_weight="1"
-            android:gravity="center_vertical"
-            android:text="Humedad"
-            android:textSize="24sp"
-            />
-            <TextView
-                android:id="@+id/humedadVal"
+                android:layout_width="wrap_content"
+                android:layout_height="63dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Humedad"
+                android:textSize="24sp"
+                />
+            <EditText
+                android:id="@+id/in_hum"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -105,16 +105,16 @@
                 android:text="Peso"
                 android:textSize="24sp"
                 />
-            <TextView
-                android:id="@+id/pesoVal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="right|center_vertical"
-            android:paddingRight="30dp"
-            android:text="g"
-            android:textSize="24sp"
-            />
+            <EditText
+                android:id="@+id/in_peso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:paddingRight="30dp"
+                android:text="g"
+                android:textSize="24sp"
+                />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -122,11 +122,11 @@
             android:orientation="horizontal"
             android:paddingTop="60dp">
             <Button
-                android:id="@+id/btn_datos"
+                android:id="@+id/btn_enviar"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:text="Ingresarvalores"
-                android:layout_marginLeft="100dp"/>
+                android:text="Enviar"
+                android:layout_marginLeft="150dp"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
