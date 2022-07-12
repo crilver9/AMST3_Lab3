@@ -24,6 +24,7 @@
             android:textAlignment="center"
             android:textColor="#673AB7"
             android:textSize="30dp" />
+
         <Button
             android:id="@+id/btnSensores"
             android:layout_width="220dp"
@@ -31,16 +32,17 @@
             android:background="#673AB7"
             android:backgroundTint="@color/white"
             android:onClick="revisarSensores"
-            android:text="Control desensores"
+            android:text="Control de sensores"
             android:textColor="@color/white" />
+
         <Button
             android:id="@+id/btnPedidos"
             android:layout_width="220dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:background="#673AB7"
             android:backgroundTint="#673AB7"
-            android:layout_marginTop="10dp"
-            android:text="Historial depedidos"
+            android:text="Historial de pedidos"
             android:textColor="@color/white" />
         <Button
             android:id="@+id/btnDBprivada"

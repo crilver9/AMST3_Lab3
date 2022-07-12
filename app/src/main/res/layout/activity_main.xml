@@ -39,14 +39,14 @@
             android:hint="Clave"
             android:inputType="textPassword"
             android:minHeight="48dp" />
+
         <Button
             android:id="@+id/btnLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#5707E4"
             android:onClick="irMenuPrincipal"
-            android:text="Inicio deSesión"
-            android:textColor="#FAFAFB"
-            />
+            android:text="Inicio de Sesión"
+            android:textColor="#FAFAFB" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
