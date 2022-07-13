@@ -39,7 +39,7 @@
                 android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:paddingRight="2dp"
-                android:text="Temperatura Actual"
+                android:text="Temperatura \n Actual (ºC)"
                 android:textSize="24sp"
                 />
             <EditText
@@ -49,7 +49,6 @@
                 android:layout_weight="1"
                 android:gravity="right|center_vertical"
                 android:paddingRight="30dp"
-                android:text="°C"
                 android:textSize="24sp"
                 />
         </LinearLayout>
@@ -71,7 +70,7 @@
                 android:layout_height="63dp"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="Humedad"
+                android:text="Humedad (%)"
                 android:textSize="24sp"
                 />
             <EditText
@@ -81,7 +80,6 @@
                 android:layout_weight="1"
                 android:gravity="right|center_vertical"
                 android:paddingRight="30dp"
-                android:text="%"
                 android:textSize="24sp"
                 />
         </LinearLayout>
@@ -102,7 +100,7 @@
                 android:layout_height="63dp"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="Peso"
+                android:text="Peso (g)"
                 android:textSize="24sp"
                 />
             <EditText
@@ -112,7 +110,6 @@
                 android:layout_weight="1"
                 android:gravity="right|center_vertical"
                 android:paddingRight="30dp"
-                android:text="g"
                 android:textSize="24sp"
                 />
         </LinearLayout>
