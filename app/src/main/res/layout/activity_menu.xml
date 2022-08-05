@@ -44,6 +44,7 @@
             android:backgroundTint="#673AB7"
             android:text="Historial de pedidos"
             android:textColor="@color/white" />
+
         <Button
             android:id="@+id/btnDBprivada"
             android:layout_width="220dp"
